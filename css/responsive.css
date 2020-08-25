@@ -1,0 +1,134 @@
+/*---website---*/
+@media only screen and (min-width: 571px){
+  .mobile-view{
+    display: none;
+  }
+}
+/* ---tablet--- */
+@media only screen and (max-width: 800px){
+  .footer-content {
+    font-size: 2.1vw;
+  }
+  .menu-bar ul li a{
+    font-size: 2.4vw;
+  }
+  .menu-nav div a h2{
+    font-size: 20px;
+    padding-top:33px;
+  }
+  .portfolio_content_list ul li a{
+    font-size: 2vw;
+  }
+  .portfolio_content_list ul{
+    width:90%;
+  }
+  .contact_img {
+text-align: left;
+}
+  .contact_img img{
+    width:35vw;
+  }
+  .contact_about_text p{
+    font-size: 2.5vw;
+  }
+  .contact_text_box div p{
+    font-size: 2vw;
+    }
+}
+/*----mobile--------*/
+@media only screen and (max-width: 570px) {
+  .website-view{
+      display: none;
+  }
+  .header-content div h2{
+    padding-top: 2vh;
+  }
+  @keyframes h2_slide{
+    0%{
+      padding-right: 20vw;
+      opacity: 0;
+    }
+    100%{
+      padding-top: 2vh;
+      opacity: 1;
+    }
+  }
+  .menu-nav div a h2{
+    font-size: 45px;
+    padding-top: 2.5vh;
+  }
+
+.portfolio-25to33 > div{
+    min-height: 50px;
+    width: 33.3333%;
+}
+.portfolio-33to50 > div{
+    min-height: 10px;
+    width: 50%;
+  }
+  .portfolio-50to100 > div{
+    min-height: 50px;
+    width: 100%;
+  }
+  .image_fit img{
+     width: 100%;
+  }
+  .portfolio_content_list ul{
+    width:95%;
+  }
+  .contact-content{
+    padding-top: 20px;
+  }
+  .contact_3_images{
+    padding-top: 50px;
+    padding-left: 40px;
+    position:relative;
+  }
+  .contact_3_images p{
+    font-size: 20px;
+  }
+  .contact_3_images a{
+    font-size: 20px;
+  }
+  .contact_3_images div img{
+    height: 5vh;
+  }
+  .contact_img {
+    text-align: center;
+  }
+  .contact_img img{
+    max-height:40%;
+  }
+  .contact_about_text p{
+    font-size: 2.8vw;
+  }
+.contact_text_box div p{
+  font-size: 20px;
+  }
+  /* ---------------------------------portfolio content slut */
+  .footer-content > div{
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+   #footer_respons { /*overwriter min grid.css*/
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+    /* ingen justify-content da den ikke centere pga forskellige tekst længder */
+  }
+  .footer-content div .footer_align{
+    margin-left: 15px;
+    padding-top: 15px;
+  }
+  .footer_align img{
+    padding-right: 15px;
+    height:3vh;
+  }
+
+  .footer_rights p{
+    padding-top: 10px;
+  }
+  /* footer responsive slut */
+}

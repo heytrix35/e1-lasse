@@ -1,0 +1,206 @@
+.column{
+	display: flexbox;
+	display: flex;
+
+	flex-direction:column;
+	box-sizing:border-box;
+	flex-wrap:wrap;
+}
+.row{
+	display: flexbox;
+	display: flex;
+
+	flex-direction:row;
+	box-sizing:border-box;
+	flex-wrap:wrap;
+}
+.flex-start{
+	align-items:flex-start;
+}
+.flex-end{
+	align-items:flex-end;
+}
+.flex-center{
+	align-items:center;
+}
+.flex-baseline{
+	align-items:baseline;
+}
+.flex-space-around{
+	justify-content: space-around;
+}
+.flex-space-between{
+	justify-content: space-between;
+}
+.flex-space-evenly{
+ justify-content: space-evenly;
+}
+.row > div{
+	display: flex;
+}
+.row > div > *{
+	width: 100%;
+	box-sizing:border-box;
+}
+.column > div{
+	display: flex;
+}
+.column > div > *{
+	box-sizing:border-box;
+}
+
+
+/*Grid*/
+.col100 > div{
+	width: 100%;
+}
+.col50 > div{
+	width:50%;
+}
+.col33 > div{
+	width:33.33333%;
+}
+.col25 > div{
+	width:25%;
+}
+.col50-25-25 > div:nth-child(1){
+	width:50%;
+}
+.col50-25-25 > div:nth-child(2){
+	width: 25%;
+}
+.col50-25-25 > div:nth-child(3){
+	width:25%;
+}
+.col25-50-25 > div:nth-child(1){
+	width: 25%;
+}
+.col25-50-25 > div:nth-child(2){
+	width: 50%;
+}
+.col25-50-25 > div:nth-child(3){
+	width: 25%;
+}
+.col25-25-50 > div:nth-child(1){
+	width: 25%;
+}
+.col25-25-50 > div:nth-child(2){
+	width: 25%;
+}
+.col25-25-50 > div:nth-child(3){
+	width: 50%;
+}
+.col33-66 > div:nth-child(1){
+	width: 33.3333333333%;
+}
+.col33-66 > div:nth-child(2){
+	width: 66.6666666666%
+}
+.col66-33 > div:nth-child(1){
+	width: 66.6666666666%;
+}
+.col66-33 > div:nth-child(2){
+	width: 33.3333333333%;
+}
+.col75-25 > div:nth-child(1){
+	width: 75%
+}
+.col75-25 > div:nth-child(2){
+	width: 25%;
+}
+.col25-75 > div:nth-child(1){
+	width: 25%;
+}
+.col25-75 > div:nth-child(2){
+	width:75%;
+}
+
+
+/*Gutter*/
+.row + .row{
+	margin-top: 12px;
+}
+.col50 > div:nth-child(1) > *{
+	margin-right: 6px;
+}
+.col50 > div:nth-child(2) > *{
+	margin-left:6px;
+}
+.col33 > div:nth-child(1) > *{
+	margin-right: 8px;
+}
+.col33 > div:nth-child(2) > *{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.col33 > div:nth-child(3) > *{
+	margin-left: 8px;
+}
+.col25 > div:nth-child(1) > *{
+	margin-right: 9px;
+}
+.col25 > div:nth-child(2) > *{
+	margin-left: 3px;
+	margin-right: 6px;
+}
+.col25 > div:nth-child(3) > *{
+	margin-left:6px;
+	margin-right:3px;
+}
+.col25 > div:nth-child(4) > *{
+	margin-left: 9px;
+}
+.col50-25-25 > div:nth-child(1) > *{
+	margin-right: 6px;
+}
+.col50-25-25 > div:nth-child(2) > *{
+	margin-left: 6px;
+	margin-right: 3px;
+}
+.col50-25-25 > div:nth-child(3) > *{
+	margin-left: 9px;
+}
+.col25-50-25 > div:nth-child(1) > *{
+	margin-right: 9px;
+}
+.col25-50-25 > div:nth-child(2) > *{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.col25-50-25 > div:nth-child(3) > *{
+	margin-left: 9px;
+}
+.col25-25-50 > div:nth-child(1) > *{
+	margin-right: 9px;
+}
+.col25-25-50 > div:nth-child(2) > *{
+	margin-left: 3px;
+	margin-right: 6px;
+}
+.col25-25-50 > div:nth-child(3) > *{
+	margin-left: 6px;
+}
+.col33-66 > div:nth-child(1) > *{
+	margin-right: 8px;
+}
+.col33-66 > div:nth-child(2) > *{
+	margin-left: 4px;
+}
+.col66-33 > div:nth-child(1) > *{
+	margin-right: 4px;
+}
+.col66-33 > div:nth-child(2) > *{
+	margin-left: 8px;
+}
+.col75-25 > div:nth-child(1) > *{
+	margin-right: 4px;
+}
+.col75-25 > div:nth-child(2) > *{
+	margin-left: 8px;
+}
+.col25-75 > div:nth-child(1) > *{
+	margin-right: 9px;
+}
+.col25-75 > div:nth-child(2) > *{
+	margin-left: 3px;
+}
